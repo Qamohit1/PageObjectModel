@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="50122" started-at="2020-04-29T18:26:38Z" finished-at="2020-04-29T18:27:28Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="50122" started-at="2020-04-29T18:26:38Z" finished-at="2020-04-29T18:27:28Z">
+      <class name="com.qa.testcases.HomepageTC">
+        <test-method status="PASS" signature="Beforetest()[pri:0, instance:com.qa.testcases.HomepageTC@1ce61929]" name="Beforetest" is-config="true" duration-ms="24384" started-at="2020-04-29T23:56:38Z" finished-at="2020-04-29T23:57:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Beforetest -->
+        <test-method status="PASS" signature="Verifuser()[pri:1, instance:com.qa.testcases.HomepageTC@1ce61929]" name="Verifuser" duration-ms="295" started-at="2020-04-29T23:57:02Z" finished-at="2020-04-29T23:57:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verifuser -->
+        <test-method status="PASS" signature="Aftertest()[pri:0, instance:com.qa.testcases.HomepageTC@1ce61929]" name="Aftertest" is-config="true" duration-ms="254" started-at="2020-04-29T23:57:03Z" finished-at="2020-04-29T23:57:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Aftertest -->
+        <test-method status="PASS" signature="Beforetest()[pri:0, instance:com.qa.testcases.HomepageTC@1ce61929]" name="Beforetest" is-config="true" duration-ms="24231" started-at="2020-04-29T23:57:03Z" finished-at="2020-04-29T23:57:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Beforetest -->
+        <test-method status="PASS" signature="Veriflogin()[pri:2, instance:com.qa.testcases.HomepageTC@1ce61929]" name="Veriflogin" duration-ms="153" started-at="2020-04-29T23:57:27Z" finished-at="2020-04-29T23:57:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Veriflogin -->
+        <test-method status="PASS" signature="Aftertest()[pri:0, instance:com.qa.testcases.HomepageTC@1ce61929]" name="Aftertest" is-config="true" duration-ms="144" started-at="2020-04-29T23:57:27Z" finished-at="2020-04-29T23:57:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Aftertest -->
+        <test-method status="PASS" signature="Teardown()[pri:0, instance:com.qa.testcases.HomepageTC@1ce61929]" name="Teardown" is-config="true" duration-ms="602" started-at="2020-04-29T23:57:27Z" finished-at="2020-04-29T23:57:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+      </class> <!-- com.qa.testcases.HomepageTC -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

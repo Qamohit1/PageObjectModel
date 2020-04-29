@@ -1,0 +1,875 @@
+# Created at 2020-04-25T16:19:37.828
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+# Created at 2020-04-25T16:19:44.158
+Unexpected IOException with stream: 04-25-2020 16:19:44 Wire.java DEBUG [Forwarding maximizeCurrentWindow on session 636108c3a9b43cebb1018bfc235887cb to remote] http.wire 73 - http-outgoing-1 << "HTTP/1.1 200 OK[\r][\n]"
+
+
+# Created at 2020-04-25T16:19:44.159
+Unexpected IOException with stream: 04-25-2020 16:19:44 Wire.java DEBUG [Forwarding maximizeCurrentWindow on session 636108c3a9b43cebb1018bfc235887cb to remote] http.wire 73 - http-outgoing-1 << "Content-Length:14[\r][\n]"
+
+
+# Created at 2020-04-25T16:19:44.159
+Unexpected IOException with stream: 04-25-2020 16:19:44 Wire.java DEBUG [Forwarding maximizeCurrentWindow on session 636108c3a9b43cebb1018bfc235887cb to remote] http.wire 73 - http-outgoing-1 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+
+
+# Created at 2020-04-25T16:19:44.160
+Unexpected IOException with stream: 04-25-2020 16:19:44 Wire.java DEBUG [Forwarding maximizeCurrentWindow on session 636108c3a9b43cebb1018bfc235887cb to remote] http.wire 73 - http-outgoing-1 << "cache-control:no-cache[\r][\n]"
+
+
+# Created at 2020-04-25T16:19:44.160
+Unexpected IOException with stream: 04-25-2020 16:19:44 Wire.java DEBUG [Forwarding maximizeCurrentWindow on session 636108c3a9b43cebb1018bfc235887cb to remote] http.wire 73 - http-outgoing-1 << "[\r][\n]"
+
+
+# Created at 2020-04-25T16:19:44.161
+Unexpected IOException with stream: 04-25-2020 16:19:44 Wire.java DEBUG [Forwarding maximizeCurrentWindow on session 636108c3a9b43cebb1018bfc235887cb to remote] http.wire 87 - http-outgoing-1 << "{"value":null}"
+
+
+# Created at 2020-04-25T16:19:44.162
+Unexpected IOException with stream: 04-25-2020 16:19:44 LoggingManagedHttpClientConnection.java DEBUG [Forwarding maximizeCurrentWindow on session 636108c3a9b43cebb1018bfc235887cb to remote] http.headers 122 - http-outgoing-1 << HTTP/1.1 200 OK
+
+
+# Created at 2020-04-25T16:19:44.163
+Unexpected IOException with stream: 04-25-2020 16:19:44 LoggingManagedHttpClientConnection.java DEBUG [Forwarding maximizeCurrentWindow on session 636108c3a9b43cebb1018bfc235887cb to remote] http.headers 125 - http-outgoing-1 << Content-Length:14
+
+
+# Created at 2020-04-25T16:19:44.163
+Unexpected IOException with stream: 04-25-2020 16:19:44 LoggingManagedHttpClientConnection.java DEBUG [Forwarding maximizeCurrentWindow on session 636108c3a9b43cebb1018bfc235887cb to remote] http.headers 125 - http-outgoing-1 << Content-Type:application/json; charset=utf-8
+
+
+# Created at 2020-04-25T16:19:44.164
+Unexpected IOException with stream: 04-25-2020 16:19:44 LoggingManagedHttpClientConnection.java DEBUG [Forwarding maximizeCurrentWindow on session 636108c3a9b43cebb1018bfc235887cb to remote] http.headers 125 - http-outgoing-1 << cache-control:no-cache
+
+
+# Created at 2020-04-25T16:19:44.165
+Unexpected IOException with stream: 04-25-2020 16:19:44 MainClientExec.java DEBUG [Forwarding maximizeCurrentWindow on session 636108c3a9b43cebb1018bfc235887cb to remote] execchain.MainClientExec 285 - Connection can be kept alive indefinitely
+
+
+# Created at 2020-04-25T16:19:44.166
+Unexpected IOException with stream: 04-25-2020 16:19:44 PoolingHttpClientConnectionManager.java DEBUG [Forwarding maximizeCurrentWindow on session 636108c3a9b43cebb1018bfc235887cb to remote] conn.PoolingHttpClientConnectionManager 320 - Connection [id: 1][route: {}->http://localhost:5311] can be kept alive indefinitely
+
+
+# Created at 2020-04-25T16:19:44.166
+Unexpected IOException with stream: 04-25-2020 16:19:44 PoolingHttpClientConnectionManager.java DEBUG [Forwarding maximizeCurrentWindow on session 636108c3a9b43cebb1018bfc235887cb to remote] conn.PoolingHttpClientConnectionManager 326 - Connection released: [id: 1][route: {}->http://localhost:5311][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+
+
+# Created at 2020-04-25T16:19:44.168
+Unexpected IOException with stream: 04-25-2020 16:19:44 RequestAddCookies.java DEBUG [Forwarding setTimeout on session 636108c3a9b43cebb1018bfc235887cb to remote] protocol.RequestAddCookies 123 - CookieSpec selected: default
+
+
+# Created at 2020-04-25T16:19:44.169
+Unexpected IOException with stream: 04-25-2020 16:19:44 RequestAuthCache.java DEBUG [Forwarding setTimeout on session 636108c3a9b43cebb1018bfc235887cb to remote] protocol.RequestAuthCache 77 - Auth cache not set in the context
+
+
+# Created at 2020-04-25T16:19:44.169
+Unexpected IOException with stream: 04-25-2020 16:19:44 PoolingHttpClientConnectionManager.java DEBUG [Forwarding setTimeout on session 636108c3a9b43cebb1018bfc235887cb to remote] conn.PoolingHttpClientConnectionManager 255 - Connection request: [route: {}->http://localhost:5311][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+
+
+# Created at 2020-04-25T16:19:44.170
+Unexpected IOException with stream: 04-25-2020 16:19:44 PoolingHttpClientConnectionManager.java DEBUG [Forwarding setTimeout on session 636108c3a9b43cebb1018bfc235887cb to remote] conn.PoolingHttpClientConnectionManager 288 - Connection leased: [id: 1][route: {}->http://localhost:5311][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+
+
+# Created at 2020-04-25T16:19:44.171
+Unexpected IOException with stream: 04-25-2020 16:19:44 MainClientExec.java DEBUG [Forwarding setTimeout on session 636108c3a9b43cebb1018bfc235887cb to remote] execchain.MainClientExec 208 - Stale connection check
+
+
+# Created at 2020-04-25T16:19:44.172
+Unexpected IOException with stream: 04-25-2020 16:19:44 Wire.java DEBUG [Forwarding setTimeout on session 636108c3a9b43cebb1018bfc235887cb to remote] http.wire 87 - http-outgoing-1 << "[read] I/O error: Read timed out"
+
+
+# Created at 2020-04-25T16:19:44.173
+Unexpected IOException with stream: 04-25-2020 16:19:44 LoggingManagedHttpClientConnection.java DEBUG [Forwarding setTimeout on session 636108c3a9b43cebb1018bfc235887cb to remote] conn.DefaultManagedHttpClientConnection 88 - http-outgoing-1: set socket timeout to 10800000
+
+
+# Created at 2020-04-25T16:19:44.173
+Unexpected IOException with stream: 04-25-2020 16:19:44 MainClientExec.java DEBUG [Forwarding setTimeout on session 636108c3a9b43cebb1018bfc235887cb to remote] execchain.MainClientExec 256 - Executing request POST /session/636108c3a9b43cebb1018bfc235887cb/timeouts HTTP/1.1
+
+
+# Created at 2020-04-25T16:19:44.174
+Unexpected IOException with stream: 04-25-2020 16:19:44 MainClientExec.java DEBUG [Forwarding setTimeout on session 636108c3a9b43cebb1018bfc235887cb to remote] execchain.MainClientExec 261 - Target auth state: UNCHALLENGED
+
+
+# Created at 2020-04-25T16:19:44.174
+Unexpected IOException with stream: 04-25-2020 16:19:44 MainClientExec.java DEBUG [Forwarding setTimeout on session 636108c3a9b43cebb1018bfc235887cb to remote] execchain.MainClientExec 267 - Proxy auth state: UNCHALLENGED
+
+
+# Created at 2020-04-25T16:19:44.175
+Unexpected IOException with stream: 04-25-2020 16:19:44 LoggingManagedHttpClientConnection.java DEBUG [Forwarding setTimeout on session 636108c3a9b43cebb1018bfc235887cb to remote] http.headers 133 - http-outgoing-1 >> POST /session/636108c3a9b43cebb1018bfc235887cb/timeouts HTTP/1.1
+
+
+# Created at 2020-04-25T16:19:44.176
+Unexpected IOException with stream: 04-25-2020 16:19:44 LoggingManagedHttpClientConnection.java DEBUG [Forwarding setTimeout on session 636108c3a9b43cebb1018bfc235887cb to remote] http.headers 136 - http-outgoing-1 >> Content-Type: application/json; charset=utf-8
+
+
+# Created at 2020-04-25T16:19:44.176
+Unexpected IOException with stream: 04-25-2020 16:19:44 LoggingManagedHttpClientConnection.java DEBUG [Forwarding setTimeout on session 636108c3a9b43cebb1018bfc235887cb to remote] http.headers 136 - http-outgoing-1 >> Content-Length: 18
+
+
+# Created at 2020-04-25T16:19:44.177
+Unexpected IOException with stream: 04-25-2020 16:19:44 LoggingManagedHttpClientConnection.java DEBUG [Forwarding setTimeout on session 636108c3a9b43cebb1018bfc235887cb to remote] http.headers 136 - http-outgoing-1 >> Host: localhost:5311
+
+
+# Created at 2020-04-25T16:19:44.178
+Unexpected IOException with stream: 04-25-2020 16:19:44 LoggingManagedHttpClientConnection.java DEBUG [Forwarding setTimeout on session 636108c3a9b43cebb1018bfc235887cb to remote] http.headers 136 - http-outgoing-1 >> Connection: Keep-Alive
+
+
+# Created at 2020-04-25T16:19:44.178
+Unexpected IOException with stream: 04-25-2020 16:19:44 LoggingManagedHttpClientConnection.java DEBUG [Forwarding setTimeout on session 636108c3a9b43cebb1018bfc235887cb to remote] http.headers 136 - http-outgoing-1 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_101)
+
+
+# Created at 2020-04-25T16:19:44.179
+Unexpected IOException with stream: 04-25-2020 16:19:44 LoggingManagedHttpClientConnection.java DEBUG [Forwarding setTimeout on session 636108c3a9b43cebb1018bfc235887cb to remote] http.headers 136 - http-outgoing-1 >> Accept-Encoding: gzip,deflate
+
+
+# Created at 2020-04-25T16:19:44.179
+Unexpected IOException with stream: 04-25-2020 16:19:44 Wire.java DEBUG [Forwarding setTimeout on session 636108c3a9b43cebb1018bfc235887cb to remote] http.wire 73 - http-outgoing-1 >> "POST /session/636108c3a9b43cebb1018bfc235887cb/timeouts HTTP/1.1[\r][\n]"
+
+
+# Created at 2020-04-25T16:19:44.180
+Unexpected IOException with stream: 04-25-2020 16:19:44 Wire.java DEBUG [Forwarding setTimeout on session 636108c3a9b43cebb1018bfc235887cb to remote] http.wire 73 - http-outgoing-1 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+
+
+# Created at 2020-04-25T16:19:44.181
+Unexpected IOException with stream: 04-25-2020 16:19:44 Wire.java DEBUG [Forwarding setTimeout on session 636108c3a9b43cebb1018bfc235887cb to remote] http.wire 73 - http-outgoing-1 >> "Content-Length: 18[\r][\n]"
+
+
+# Created at 2020-04-25T16:19:44.181
+Unexpected IOException with stream: 04-25-2020 16:19:44 Wire.java DEBUG [Forwarding setTimeout on session 636108c3a9b43cebb1018bfc235887cb to remote] http.wire 73 - http-outgoing-1 >> "Host: localhost:5311[\r][\n]"
+
+
+# Created at 2020-04-25T16:19:44.182
+Unexpected IOException with stream: 04-25-2020 16:19:44 Wire.java DEBUG [Forwarding setTimeout on session 636108c3a9b43cebb1018bfc235887cb to remote] http.wire 73 - http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
+
+
+# Created at 2020-04-25T16:19:44.183
+Unexpected IOException with stream: 04-25-2020 16:19:44 Wire.java DEBUG [Forwarding setTimeout on session 636108c3a9b43cebb1018bfc235887cb to remote] http.wire 73 - http-outgoing-1 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_101)[\r][\n]"
+
+
+# Created at 2020-04-25T16:19:44.183
+Unexpected IOException with stream: 04-25-2020 16:19:44 Wire.java DEBUG [Forwarding setTimeout on session 636108c3a9b43cebb1018bfc235887cb to remote] http.wire 73 - http-outgoing-1 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+
+
+# Created at 2020-04-25T16:19:44.184
+Unexpected IOException with stream: 04-25-2020 16:19:44 Wire.java DEBUG [Forwarding setTimeout on session 636108c3a9b43cebb1018bfc235887cb to remote] http.wire 73 - http-outgoing-1 >> "[\r][\n]"
+
+
+# Created at 2020-04-25T16:19:44.184
+Unexpected IOException with stream: 04-25-2020 16:19:44 Wire.java DEBUG [Forwarding setTimeout on session 636108c3a9b43cebb1018bfc235887cb to remote] http.wire 87 - http-outgoing-1 >> "{"implicit":20000}"
+
+
+# Created at 2020-04-25T16:19:44.186
+Unexpected IOException with stream: 04-25-2020 16:19:44 Wire.java DEBUG [Forwarding setTimeout on session 636108c3a9b43cebb1018bfc235887cb to remote] http.wire 73 - http-outgoing-1 << "HTTP/1.1 200 OK[\r][\n]"
+
+
+# Created at 2020-04-25T16:19:44.186
+Unexpected IOException with stream: 04-25-2020 16:19:44 Wire.java DEBUG [Forwarding setTimeout on session 636108c3a9b43cebb1018bfc235887cb to remote] http.wire 73 - http-outgoing-1 << "Content-Length:14[\r][\n]"
+
+
+# Created at 2020-04-25T16:19:44.187
+Unexpected IOException with stream: 04-25-2020 16:19:44 Wire.java DEBUG [Forwarding setTimeout on session 636108c3a9b43cebb1018bfc235887cb to remote] http.wire 73 - http-outgoing-1 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+
+
+# Created at 2020-04-25T16:19:44.188
+Unexpected IOException with stream: 04-25-2020 16:19:44 Wire.java DEBUG [Forwarding setTimeout on session 636108c3a9b43cebb1018bfc235887cb to remote] http.wire 73 - http-outgoing-1 << "cache-control:no-cache[\r][\n]"
+
+
+# Created at 2020-04-25T16:19:44.188
+Unexpected IOException with stream: 04-25-2020 16:19:44 Wire.java DEBUG [Forwarding setTimeout on session 636108c3a9b43cebb1018bfc235887cb to remote] http.wire 73 - http-outgoing-1 << "[\r][\n]"
+
+
+# Created at 2020-04-25T16:19:44.189
+Unexpected IOException with stream: 04-25-2020 16:19:44 Wire.java DEBUG [Forwarding setTimeout on session 636108c3a9b43cebb1018bfc235887cb to remote] http.wire 87 - http-outgoing-1 << "{"value":null}"
+
+
+# Created at 2020-04-25T16:19:44.189
+Unexpected IOException with stream: 04-25-2020 16:19:44 LoggingManagedHttpClientConnection.java DEBUG [Forwarding setTimeout on session 636108c3a9b43cebb1018bfc235887cb to remote] http.headers 122 - http-outgoing-1 << HTTP/1.1 200 OK
+
+
+# Created at 2020-04-25T16:19:44.190
+Unexpected IOException with stream: 04-25-2020 16:19:44 LoggingManagedHttpClientConnection.java DEBUG [Forwarding setTimeout on session 636108c3a9b43cebb1018bfc235887cb to remote] http.headers 125 - http-outgoing-1 << Content-Length:14
+
+
+# Created at 2020-04-25T16:19:44.191
+Unexpected IOException with stream: 04-25-2020 16:19:44 LoggingManagedHttpClientConnection.java DEBUG [Forwarding setTimeout on session 636108c3a9b43cebb1018bfc235887cb to remote] http.headers 125 - http-outgoing-1 << Content-Type:application/json; charset=utf-8
+
+
+# Created at 2020-04-25T16:19:44.192
+Unexpected IOException with stream: 04-25-2020 16:19:44 LoggingManagedHttpClientConnection.java DEBUG [Forwarding setTimeout on session 636108c3a9b43cebb1018bfc235887cb to remote] http.headers 125 - http-outgoing-1 << cache-control:no-cache
+
+
+# Created at 2020-04-25T16:19:44.193
+Unexpected IOException with stream: 04-25-2020 16:19:44 MainClientExec.java DEBUG [Forwarding setTimeout on session 636108c3a9b43cebb1018bfc235887cb to remote] execchain.MainClientExec 285 - Connection can be kept alive indefinitely
+
+
+# Created at 2020-04-25T16:19:44.194
+Unexpected IOException with stream: 04-25-2020 16:19:44 PoolingHttpClientConnectionManager.java DEBUG [Forwarding setTimeout on session 636108c3a9b43cebb1018bfc235887cb to remote] conn.PoolingHttpClientConnectionManager 320 - Connection [id: 1][route: {}->http://localhost:5311] can be kept alive indefinitely
+
+
+# Created at 2020-04-25T16:19:44.195
+Unexpected IOException with stream: 04-25-2020 16:19:44 PoolingHttpClientConnectionManager.java DEBUG [Forwarding setTimeout on session 636108c3a9b43cebb1018bfc235887cb to remote] conn.PoolingHttpClientConnectionManager 326 - Connection released: [id: 1][route: {}->http://localhost:5311][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+
+
+# Created at 2020-04-25T16:19:44.197
+Unexpected IOException with stream: 04-25-2020 16:19:44 RequestAddCookies.java DEBUG [Forwarding setTimeout on session 636108c3a9b43cebb1018bfc235887cb to remote] protocol.RequestAddCookies 123 - CookieSpec selected: default
+
+
+# Created at 2020-04-25T16:19:44.198
+Unexpected IOException with stream: 04-25-2020 16:19:44 RequestAuthCache.java DEBUG [Forwarding setTimeout on session 636108c3a9b43cebb1018bfc235887cb to remote] protocol.RequestAuthCache 77 - Auth cache not set in the context
+
+
+# Created at 2020-04-25T16:19:44.198
+Unexpected IOException with stream: 04-25-2020 16:19:44 PoolingHttpClientConnectionManager.java DEBUG [Forwarding setTimeout on session 636108c3a9b43cebb1018bfc235887cb to remote] conn.PoolingHttpClientConnectionManager 255 - Connection request: [route: {}->http://localhost:5311][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+
+
+# Created at 2020-04-25T16:19:44.199
+Unexpected IOException with stream: 04-25-2020 16:19:44 PoolingHttpClientConnectionManager.java DEBUG [Forwarding setTimeout on session 636108c3a9b43cebb1018bfc235887cb to remote] conn.PoolingHttpClientConnectionManager 288 - Connection leased: [id: 1][route: {}->http://localhost:5311][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+
+
+# Created at 2020-04-25T16:19:44.200
+Unexpected IOException with stream: 04-25-2020 16:19:44 MainClientExec.java DEBUG [Forwarding setTimeout on session 636108c3a9b43cebb1018bfc235887cb to remote] execchain.MainClientExec 208 - Stale connection check
+
+
+# Created at 2020-04-25T16:19:44.202
+Unexpected IOException with stream: 04-25-2020 16:19:44 Wire.java DEBUG [Forwarding setTimeout on session 636108c3a9b43cebb1018bfc235887cb to remote] http.wire 87 - http-outgoing-1 << "[read] I/O error: Read timed out"
+
+
+# Created at 2020-04-25T16:19:44.203
+Unexpected IOException with stream: 04-25-2020 16:19:44 LoggingManagedHttpClientConnection.java DEBUG [Forwarding setTimeout on session 636108c3a9b43cebb1018bfc235887cb to remote] conn.DefaultManagedHttpClientConnection 88 - http-outgoing-1: set socket timeout to 10800000
+
+
+# Created at 2020-04-25T16:19:44.203
+Unexpected IOException with stream: 04-25-2020 16:19:44 MainClientExec.java DEBUG [Forwarding setTimeout on session 636108c3a9b43cebb1018bfc235887cb to remote] execchain.MainClientExec 256 - Executing request POST /session/636108c3a9b43cebb1018bfc235887cb/timeouts HTTP/1.1
+
+
+# Created at 2020-04-25T16:19:44.204
+Unexpected IOException with stream: 04-25-2020 16:19:44 MainClientExec.java DEBUG [Forwarding setTimeout on session 636108c3a9b43cebb1018bfc235887cb to remote] execchain.MainClientExec 261 - Target auth state: UNCHALLENGED
+
+
+# Created at 2020-04-25T16:19:44.205
+Unexpected IOException with stream: 04-25-2020 16:19:44 MainClientExec.java DEBUG [Forwarding setTimeout on session 636108c3a9b43cebb1018bfc235887cb to remote] execchain.MainClientExec 267 - Proxy auth state: UNCHALLENGED
+
+
+# Created at 2020-04-25T16:19:44.205
+Unexpected IOException with stream: 04-25-2020 16:19:44 LoggingManagedHttpClientConnection.java DEBUG [Forwarding setTimeout on session 636108c3a9b43cebb1018bfc235887cb to remote] http.headers 133 - http-outgoing-1 >> POST /session/636108c3a9b43cebb1018bfc235887cb/timeouts HTTP/1.1
+
+
+# Created at 2020-04-25T16:19:44.206
+Unexpected IOException with stream: 04-25-2020 16:19:44 LoggingManagedHttpClientConnection.java DEBUG [Forwarding setTimeout on session 636108c3a9b43cebb1018bfc235887cb to remote] http.headers 136 - http-outgoing-1 >> Content-Type: application/json; charset=utf-8
+
+
+# Created at 2020-04-25T16:19:44.206
+Unexpected IOException with stream: 04-25-2020 16:19:44 LoggingManagedHttpClientConnection.java DEBUG [Forwarding setTimeout on session 636108c3a9b43cebb1018bfc235887cb to remote] http.headers 136 - http-outgoing-1 >> Content-Length: 18
+
+
+# Created at 2020-04-25T16:19:44.207
+Unexpected IOException with stream: 04-25-2020 16:19:44 LoggingManagedHttpClientConnection.java DEBUG [Forwarding setTimeout on session 636108c3a9b43cebb1018bfc235887cb to remote] http.headers 136 - http-outgoing-1 >> Host: localhost:5311
+
+
+# Created at 2020-04-25T16:19:44.208
+Unexpected IOException with stream: 04-25-2020 16:19:44 LoggingManagedHttpClientConnection.java DEBUG [Forwarding setTimeout on session 636108c3a9b43cebb1018bfc235887cb to remote] http.headers 136 - http-outgoing-1 >> Connection: Keep-Alive
+
+
+# Created at 2020-04-25T16:19:44.208
+Unexpected IOException with stream: 04-25-2020 16:19:44 LoggingManagedHttpClientConnection.java DEBUG [Forwarding setTimeout on session 636108c3a9b43cebb1018bfc235887cb to remote] http.headers 136 - http-outgoing-1 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_101)
+
+
+# Created at 2020-04-25T16:19:44.209
+Unexpected IOException with stream: 04-25-2020 16:19:44 LoggingManagedHttpClientConnection.java DEBUG [Forwarding setTimeout on session 636108c3a9b43cebb1018bfc235887cb to remote] http.headers 136 - http-outgoing-1 >> Accept-Encoding: gzip,deflate
+
+
+# Created at 2020-04-25T16:19:44.210
+Unexpected IOException with stream: 04-25-2020 16:19:44 Wire.java DEBUG [Forwarding setTimeout on session 636108c3a9b43cebb1018bfc235887cb to remote] http.wire 73 - http-outgoing-1 >> "POST /session/636108c3a9b43cebb1018bfc235887cb/timeouts HTTP/1.1[\r][\n]"
+
+
+# Created at 2020-04-25T16:19:44.210
+Unexpected IOException with stream: 04-25-2020 16:19:44 Wire.java DEBUG [Forwarding setTimeout on session 636108c3a9b43cebb1018bfc235887cb to remote] http.wire 73 - http-outgoing-1 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+
+
+# Created at 2020-04-25T16:19:44.211
+Unexpected IOException with stream: 04-25-2020 16:19:44 Wire.java DEBUG [Forwarding setTimeout on session 636108c3a9b43cebb1018bfc235887cb to remote] http.wire 73 - http-outgoing-1 >> "Content-Length: 18[\r][\n]"
+
+
+# Created at 2020-04-25T16:19:44.211
+Unexpected IOException with stream: 04-25-2020 16:19:44 Wire.java DEBUG [Forwarding setTimeout on session 636108c3a9b43cebb1018bfc235887cb to remote] http.wire 73 - http-outgoing-1 >> "Host: localhost:5311[\r][\n]"
+
+
+# Created at 2020-04-25T16:19:44.212
+Unexpected IOException with stream: 04-25-2020 16:19:44 Wire.java DEBUG [Forwarding setTimeout on session 636108c3a9b43cebb1018bfc235887cb to remote] http.wire 73 - http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
+
+
+# Created at 2020-04-25T16:19:44.213
+Unexpected IOException with stream: 04-25-2020 16:19:44 Wire.java DEBUG [Forwarding setTimeout on session 636108c3a9b43cebb1018bfc235887cb to remote] http.wire 73 - http-outgoing-1 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_101)[\r][\n]"
+
+
+# Created at 2020-04-25T16:19:44.213
+Unexpected IOException with stream: 04-25-2020 16:19:44 Wire.java DEBUG [Forwarding setTimeout on session 636108c3a9b43cebb1018bfc235887cb to remote] http.wire 73 - http-outgoing-1 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+
+
+# Created at 2020-04-25T16:19:44.214
+Unexpected IOException with stream: 04-25-2020 16:19:44 Wire.java DEBUG [Forwarding setTimeout on session 636108c3a9b43cebb1018bfc235887cb to remote] http.wire 73 - http-outgoing-1 >> "[\r][\n]"
+
+
+# Created at 2020-04-25T16:19:44.214
+Unexpected IOException with stream: 04-25-2020 16:19:44 Wire.java DEBUG [Forwarding setTimeout on session 636108c3a9b43cebb1018bfc235887cb to remote] http.wire 87 - http-outgoing-1 >> "{"pageLoad":20000}"
+
+
+# Created at 2020-04-25T16:19:44.215
+Unexpected IOException with stream: 04-25-2020 16:19:44 Wire.java DEBUG [Forwarding setTimeout on session 636108c3a9b43cebb1018bfc235887cb to remote] http.wire 73 - http-outgoing-1 << "HTTP/1.1 200 OK[\r][\n]"
+
+
+# Created at 2020-04-25T16:19:44.216
+Unexpected IOException with stream: 04-25-2020 16:19:44 Wire.java DEBUG [Forwarding setTimeout on session 636108c3a9b43cebb1018bfc235887cb to remote] http.wire 73 - http-outgoing-1 << "Content-Length:14[\r][\n]"
+
+
+# Created at 2020-04-25T16:19:44.216
+Unexpected IOException with stream: 04-25-2020 16:19:44 Wire.java DEBUG [Forwarding setTimeout on session 636108c3a9b43cebb1018bfc235887cb to remote] http.wire 73 - http-outgoing-1 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+
+
+# Created at 2020-04-25T16:19:44.217
+Unexpected IOException with stream: 04-25-2020 16:19:44 Wire.java DEBUG [Forwarding setTimeout on session 636108c3a9b43cebb1018bfc235887cb to remote] http.wire 73 - http-outgoing-1 << "cache-control:no-cache[\r][\n]"
+
+
+# Created at 2020-04-25T16:19:44.217
+Unexpected IOException with stream: 04-25-2020 16:19:44 Wire.java DEBUG [Forwarding setTimeout on session 636108c3a9b43cebb1018bfc235887cb to remote] http.wire 73 - http-outgoing-1 << "[\r][\n]"
+
+
+# Created at 2020-04-25T16:19:44.218
+Unexpected IOException with stream: 04-25-2020 16:19:44 Wire.java DEBUG [Forwarding setTimeout on session 636108c3a9b43cebb1018bfc235887cb to remote] http.wire 87 - http-outgoing-1 << "{"value":null}"
+
+
+# Created at 2020-04-25T16:19:44.219
+Unexpected IOException with stream: 04-25-2020 16:19:44 LoggingManagedHttpClientConnection.java DEBUG [Forwarding setTimeout on session 636108c3a9b43cebb1018bfc235887cb to remote] http.headers 122 - http-outgoing-1 << HTTP/1.1 200 OK
+
+
+# Created at 2020-04-25T16:19:44.219
+Unexpected IOException with stream: 04-25-2020 16:19:44 LoggingManagedHttpClientConnection.java DEBUG [Forwarding setTimeout on session 636108c3a9b43cebb1018bfc235887cb to remote] http.headers 125 - http-outgoing-1 << Content-Length:14
+
+
+# Created at 2020-04-25T16:19:44.220
+Unexpected IOException with stream: 04-25-2020 16:19:44 LoggingManagedHttpClientConnection.java DEBUG [Forwarding setTimeout on session 636108c3a9b43cebb1018bfc235887cb to remote] http.headers 125 - http-outgoing-1 << Content-Type:application/json; charset=utf-8
+
+
+# Created at 2020-04-25T16:19:44.220
+Unexpected IOException with stream: 04-25-2020 16:19:44 LoggingManagedHttpClientConnection.java DEBUG [Forwarding setTimeout on session 636108c3a9b43cebb1018bfc235887cb to remote] http.headers 125 - http-outgoing-1 << cache-control:no-cache
+
+
+# Created at 2020-04-25T16:19:44.221
+Unexpected IOException with stream: 04-25-2020 16:19:44 MainClientExec.java DEBUG [Forwarding setTimeout on session 636108c3a9b43cebb1018bfc235887cb to remote] execchain.MainClientExec 285 - Connection can be kept alive indefinitely
+
+
+# Created at 2020-04-25T16:19:44.221
+Unexpected IOException with stream: 04-25-2020 16:19:44 PoolingHttpClientConnectionManager.java DEBUG [Forwarding setTimeout on session 636108c3a9b43cebb1018bfc235887cb to remote] conn.PoolingHttpClientConnectionManager 320 - Connection [id: 1][route: {}->http://localhost:5311] can be kept alive indefinitely
+
+
+# Created at 2020-04-25T16:19:44.222
+Unexpected IOException with stream: 04-25-2020 16:19:44 PoolingHttpClientConnectionManager.java DEBUG [Forwarding setTimeout on session 636108c3a9b43cebb1018bfc235887cb to remote] conn.PoolingHttpClientConnectionManager 326 - Connection released: [id: 1][route: {}->http://localhost:5311][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+
+
+# Created at 2020-04-25T16:19:44.223
+Unexpected IOException with stream: 04-25-2020 16:19:44 RequestAddCookies.java DEBUG [Forwarding deleteAllCookies on session 636108c3a9b43cebb1018bfc235887cb to remote] protocol.RequestAddCookies 123 - CookieSpec selected: default
+
+
+# Created at 2020-04-25T16:19:44.224
+Unexpected IOException with stream: 04-25-2020 16:19:44 RequestAuthCache.java DEBUG [Forwarding deleteAllCookies on session 636108c3a9b43cebb1018bfc235887cb to remote] protocol.RequestAuthCache 77 - Auth cache not set in the context
+
+
+# Created at 2020-04-25T16:19:44.225
+Unexpected IOException with stream: 04-25-2020 16:19:44 PoolingHttpClientConnectionManager.java DEBUG [Forwarding deleteAllCookies on session 636108c3a9b43cebb1018bfc235887cb to remote] conn.PoolingHttpClientConnectionManager 255 - Connection request: [route: {}->http://localhost:5311][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+
+
+# Created at 2020-04-25T16:19:44.225
+Unexpected IOException with stream: 04-25-2020 16:19:44 PoolingHttpClientConnectionManager.java DEBUG [Forwarding deleteAllCookies on session 636108c3a9b43cebb1018bfc235887cb to remote] conn.PoolingHttpClientConnectionManager 288 - Connection leased: [id: 1][route: {}->http://localhost:5311][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+
+
+# Created at 2020-04-25T16:19:44.226
+Unexpected IOException with stream: 04-25-2020 16:19:44 MainClientExec.java DEBUG [Forwarding deleteAllCookies on session 636108c3a9b43cebb1018bfc235887cb to remote] execchain.MainClientExec 208 - Stale connection check
+
+
+# Created at 2020-04-25T16:19:44.228
+Unexpected IOException with stream: 04-25-2020 16:19:44 Wire.java DEBUG [Forwarding deleteAllCookies on session 636108c3a9b43cebb1018bfc235887cb to remote] http.wire 87 - http-outgoing-1 << "[read] I/O error: Read timed out"
+
+
+# Created at 2020-04-25T16:19:44.229
+Unexpected IOException with stream: 04-25-2020 16:19:44 LoggingManagedHttpClientConnection.java DEBUG [Forwarding deleteAllCookies on session 636108c3a9b43cebb1018bfc235887cb to remote] conn.DefaultManagedHttpClientConnection 88 - http-outgoing-1: set socket timeout to 10800000
+
+
+# Created at 2020-04-25T16:19:44.229
+Unexpected IOException with stream: 04-25-2020 16:19:44 MainClientExec.java DEBUG [Forwarding deleteAllCookies on session 636108c3a9b43cebb1018bfc235887cb to remote] execchain.MainClientExec 256 - Executing request DELETE /session/636108c3a9b43cebb1018bfc235887cb/cookie HTTP/1.1
+
+
+# Created at 2020-04-25T16:19:44.230
+Unexpected IOException with stream: 04-25-2020 16:19:44 MainClientExec.java DEBUG [Forwarding deleteAllCookies on session 636108c3a9b43cebb1018bfc235887cb to remote] execchain.MainClientExec 261 - Target auth state: UNCHALLENGED
+
+
+# Created at 2020-04-25T16:19:44.230
+Unexpected IOException with stream: 04-25-2020 16:19:44 MainClientExec.java DEBUG [Forwarding deleteAllCookies on session 636108c3a9b43cebb1018bfc235887cb to remote] execchain.MainClientExec 267 - Proxy auth state: UNCHALLENGED
+
+
+# Created at 2020-04-25T16:19:44.231
+Unexpected IOException with stream: 04-25-2020 16:19:44 LoggingManagedHttpClientConnection.java DEBUG [Forwarding deleteAllCookies on session 636108c3a9b43cebb1018bfc235887cb to remote] http.headers 133 - http-outgoing-1 >> DELETE /session/636108c3a9b43cebb1018bfc235887cb/cookie HTTP/1.1
+
+
+# Created at 2020-04-25T16:19:44.231
+Unexpected IOException with stream: 04-25-2020 16:19:44 LoggingManagedHttpClientConnection.java DEBUG [Forwarding deleteAllCookies on session 636108c3a9b43cebb1018bfc235887cb to remote] http.headers 136 - http-outgoing-1 >> Host: localhost:5311
+
+
+# Created at 2020-04-25T16:19:44.232
+Unexpected IOException with stream: 04-25-2020 16:19:44 LoggingManagedHttpClientConnection.java DEBUG [Forwarding deleteAllCookies on session 636108c3a9b43cebb1018bfc235887cb to remote] http.headers 136 - http-outgoing-1 >> Connection: Keep-Alive
+
+
+# Created at 2020-04-25T16:19:44.233
+Unexpected IOException with stream: 04-25-2020 16:19:44 LoggingManagedHttpClientConnection.java DEBUG [Forwarding deleteAllCookies on session 636108c3a9b43cebb1018bfc235887cb to remote] http.headers 136 - http-outgoing-1 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_101)
+
+
+# Created at 2020-04-25T16:19:44.233
+Unexpected IOException with stream: 04-25-2020 16:19:44 LoggingManagedHttpClientConnection.java DEBUG [Forwarding deleteAllCookies on session 636108c3a9b43cebb1018bfc235887cb to remote] http.headers 136 - http-outgoing-1 >> Accept-Encoding: gzip,deflate
+
+
+# Created at 2020-04-25T16:19:44.234
+Unexpected IOException with stream: 04-25-2020 16:19:44 Wire.java DEBUG [Forwarding deleteAllCookies on session 636108c3a9b43cebb1018bfc235887cb to remote] http.wire 73 - http-outgoing-1 >> "DELETE /session/636108c3a9b43cebb1018bfc235887cb/cookie HTTP/1.1[\r][\n]"
+
+
+# Created at 2020-04-25T16:19:44.234
+Unexpected IOException with stream: 04-25-2020 16:19:44 Wire.java DEBUG [Forwarding deleteAllCookies on session 636108c3a9b43cebb1018bfc235887cb to remote] http.wire 73 - http-outgoing-1 >> "Host: localhost:5311[\r][\n]"
+
+
+# Created at 2020-04-25T16:19:44.235
+Unexpected IOException with stream: 04-25-2020 16:19:44 Wire.java DEBUG [Forwarding deleteAllCookies on session 636108c3a9b43cebb1018bfc235887cb to remote] http.wire 73 - http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
+
+
+# Created at 2020-04-25T16:19:44.235
+Unexpected IOException with stream: 04-25-2020 16:19:44 Wire.java DEBUG [Forwarding deleteAllCookies on session 636108c3a9b43cebb1018bfc235887cb to remote] http.wire 73 - http-outgoing-1 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_101)[\r][\n]"
+
+
+# Created at 2020-04-25T16:19:44.236
+Unexpected IOException with stream: 04-25-2020 16:19:44 Wire.java DEBUG [Forwarding deleteAllCookies on session 636108c3a9b43cebb1018bfc235887cb to remote] http.wire 73 - http-outgoing-1 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+
+
+# Created at 2020-04-25T16:19:44.237
+Unexpected IOException with stream: 04-25-2020 16:19:44 Wire.java DEBUG [Forwarding deleteAllCookies on session 636108c3a9b43cebb1018bfc235887cb to remote] http.wire 73 - http-outgoing-1 >> "[\r][\n]"
+
+
+# Created at 2020-04-25T16:19:50.272
+Unexpected IOException with stream: 04-25-2020 16:19:50 Wire.java DEBUG [Forwarding deleteAllCookies on session 636108c3a9b43cebb1018bfc235887cb to remote] http.wire 73 - http-outgoing-1 << "HTTP/1.1 500 Internal Server Error[\r][\n]"
+
+
+# Created at 2020-04-25T16:19:50.273
+Unexpected IOException with stream: 04-25-2020 16:19:50 Wire.java DEBUG [Forwarding deleteAllCookies on session 636108c3a9b43cebb1018bfc235887cb to remote] http.wire 73 - http-outgoing-1 << "Content-Length:1034[\r][\n]"
+
+
+# Created at 2020-04-25T16:19:50.274
+Unexpected IOException with stream: 04-25-2020 16:19:50 Wire.java DEBUG [Forwarding deleteAllCookies on session 636108c3a9b43cebb1018bfc235887cb to remote] http.wire 73 - http-outgoing-1 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+
+
+# Created at 2020-04-25T16:19:50.275
+Unexpected IOException with stream: 04-25-2020 16:19:50 Wire.java DEBUG [Forwarding deleteAllCookies on session 636108c3a9b43cebb1018bfc235887cb to remote] http.wire 73 - http-outgoing-1 << "cache-control:no-cache[\r][\n]"
+
+
+# Created at 2020-04-25T16:19:50.275
+Unexpected IOException with stream: 04-25-2020 16:19:50 Wire.java DEBUG [Forwarding deleteAllCookies on session 636108c3a9b43cebb1018bfc235887cb to remote] http.wire 73 - http-outgoing-1 << "[\r][\n]"
+
+
+# Created at 2020-04-25T16:19:50.276
+Unexpected IOException with stream: 04-25-2020 16:19:50 Wire.java DEBUG [Forwarding deleteAllCookies on session 636108c3a9b43cebb1018bfc235887cb to remote] http.wire 87 - http-outgoing-1 << "{"value":{"error":"chrome not reachable","message":"chrome not reachable\n  (Session info: chrome=81.0.4044.122)","stacktrace":"Backtrace:\n\tOrdinal0 [0x004A0AE3+1706723]\n\tOrdinal0 [0x004068C1+1075393]\n\tOrdinal0 [0x0037DE52+515666]\n\tOrdinal0 [0x00377C88+490632]\n\tOrdinal0 [0x0037837B+492411]\n\tOrdinal0 [0x003792D5+496341]\n\tOrdinal0 [0x00374EE5+478949]\n\tOrdinal0 [0x0037EC80+519296]\n\tOrdinal0 [0x00332CF9+208121]\n\tOrdinal0 [0x00329D4B+171339]\n\tOrdinal0 [0x00311D4A+73034]\n\tOrdinal0 [0x00312DC0+77248]\n\tOrdinal0 [0x00312D59+77145]\n\tOrdinal0 [0x0041BB37+1162039]\n\tGetHandleVerifier [0x0053A7C6+508998]\n\tGetHandleVerifier [0x0053A504+508292]\n\tGetHandleVerifier [0x0054F617+594583]\n\tGetHandleVerifier [0x0053B036+511158]\n\tOrdinal0 [0x00413FFC+1130492]\n\tOrdinal0 [0x0041D49B+1168539]\n\tOrdinal0 [0x0041D603+1168899]\n\tOrdinal0 [0x00435B05+1268485]\n\tBaseThreadInitThunk [0x77190419+25]\n\tRtlGetAppContainerNamedObjectPath [0x773C662D+237]\n\tRtlGetAppContainerNamedObjectPath [0x773C65FD+189]\n"}}"
+
+
+# Created at 2020-04-25T16:19:50.277
+Unexpected IOException with stream: 04-25-2020 16:19:50 LoggingManagedHttpClientConnection.java DEBUG [Forwarding deleteAllCookies on session 636108c3a9b43cebb1018bfc235887cb to remote] http.headers 122 - http-outgoing-1 << HTTP/1.1 500 Internal Server Error
+
+
+# Created at 2020-04-25T16:19:50.278
+Unexpected IOException with stream: 04-25-2020 16:19:50 LoggingManagedHttpClientConnection.java DEBUG [Forwarding deleteAllCookies on session 636108c3a9b43cebb1018bfc235887cb to remote] http.headers 125 - http-outgoing-1 << Content-Length:1034
+
+
+# Created at 2020-04-25T16:19:50.278
+Unexpected IOException with stream: 04-25-2020 16:19:50 LoggingManagedHttpClientConnection.java DEBUG [Forwarding deleteAllCookies on session 636108c3a9b43cebb1018bfc235887cb to remote] http.headers 125 - http-outgoing-1 << Content-Type:application/json; charset=utf-8
+
+
+# Created at 2020-04-25T16:19:50.279
+Unexpected IOException with stream: 04-25-2020 16:19:50 LoggingManagedHttpClientConnection.java DEBUG [Forwarding deleteAllCookies on session 636108c3a9b43cebb1018bfc235887cb to remote] http.headers 125 - http-outgoing-1 << cache-control:no-cache
+
+
+# Created at 2020-04-25T16:19:50.280
+Unexpected IOException with stream: 04-25-2020 16:19:50 MainClientExec.java DEBUG [Forwarding deleteAllCookies on session 636108c3a9b43cebb1018bfc235887cb to remote] execchain.MainClientExec 285 - Connection can be kept alive indefinitely
+
+
+# Created at 2020-04-25T16:19:50.281
+Unexpected IOException with stream: 04-25-2020 16:19:50 PoolingHttpClientConnectionManager.java DEBUG [Forwarding deleteAllCookies on session 636108c3a9b43cebb1018bfc235887cb to remote] conn.PoolingHttpClientConnectionManager 320 - Connection [id: 1][route: {}->http://localhost:5311] can be kept alive indefinitely
+
+
+# Created at 2020-04-25T16:19:50.282
+Unexpected IOException with stream: 04-25-2020 16:19:50 PoolingHttpClientConnectionManager.java DEBUG [Forwarding deleteAllCookies on session 636108c3a9b43cebb1018bfc235887cb to remote] conn.PoolingHttpClientConnectionManager 326 - Connection released: [id: 1][route: {}->http://localhost:5311][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+
+
+# Created at 2020-04-25T16:19:50.307
+Unexpected IOException: 8,1,com.qa.testcases.HomepageTC,Beforetest(com.qa.testcases.HomepageTC),null,chrome not reachable\000A  (Session info: chrome=81.0.4044.122)\000ABuild info: version: '3.7.0'\002C revision: '2321c73'\002C time: '2017-11-02T22:22:35.584Z'\000ASystem info: host: 'INNO2-5095'\002C ip: '192.168.0.106'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_101'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 81.0.4044.122\002C chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632...\002C userDataDir: C:\005CUsers\005CG516741\005CAppData\005CLo...}\002C goog:chromeOptions: {debuggerAddress: localhost:53042}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 636108c3a9b43cebb1018bfc235887cb,null,chrome not reachable\000A  (Session info: chrome=81.0.4044.122)\000ABuild info: version: '3.7.0'\002C revision: '2321c73'\002C time: '2017-11-02T22:22:35.584Z'\000ASystem info: host: 'INNO2-5095'\002C ip: '192.168.0.106'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_101'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 81.0.4044.122\002C chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632...\002C userDataDir: C:\005CUsers\005CG516741\005CAppData\005CLo...}\002C goog:chromeOptions: {debuggerAddress: localhost:53042}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 636108c3a9b43cebb1018bfc235887cb,HomepageTC.Beforetest:32->Testbase.initializebrowser:91 \00BB WebDriver chrome not...,org.openqa.selenium.WebDriverException: \000Achrome not reachable\000A  (Session info: chrome=81.0.4044.122)\000ABuild info: version: '3.7.0'\002C revision: '2321c73'\002C time: '2017-11-02T22:22:35.584Z'\000ASystem info: host: 'INNO2-5095'\002C ip: '192.168.0.106'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_101'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 81.0.4044.122\002C chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632...\002C userDataDir: C:\005CUsers\005CG516741\005CAppData\005CLo...}\002C goog:chromeOptions: {debuggerAddress: localhost:53042}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 636108c3a9b43cebb1018bfc235887cb\000A\0009at com.qa.testcases.HomepageTC.Beforetest(HomepageTC.java:32)\000A
+
+
+# Created at 2020-04-25T16:19:50.317
+Unexpected IOException: 5,1,com.qa.testcases.HomepageTC,Verifuser(com.qa.testcases.HomepageTC),com.qa.testcases.HomepageTC,null,null
+
+
+# Created at 2020-04-25T16:19:50.323
+Unexpected IOException: 9,1,com.qa.testcases.HomepageTC,Verifuser(com.qa.testcases.HomepageTC),null,null,null
+
+
+# Created at 2020-04-25T16:19:50.326
+Unexpected IOException: 9,1,com.qa.testcases.HomepageTC,Aftertest(com.qa.testcases.HomepageTC),null,null,null
+
+
+# Created at 2020-04-25T16:19:50.328
+Unexpected IOException: 9,1,com.qa.testcases.HomepageTC,Beforetest(com.qa.testcases.HomepageTC),null,null,null
+
+
+# Created at 2020-04-25T16:19:50.328
+Unexpected IOException: 5,1,com.qa.testcases.HomepageTC,Veriflogin(com.qa.testcases.HomepageTC),com.qa.testcases.HomepageTC,null,null
+
+
+# Created at 2020-04-25T16:19:50.333
+Unexpected IOException: 9,1,com.qa.testcases.HomepageTC,Veriflogin(com.qa.testcases.HomepageTC),null,null,null
+
+
+# Created at 2020-04-25T16:19:50.342
+Unexpected IOException: 9,1,com.qa.testcases.HomepageTC,Aftertest(com.qa.testcases.HomepageTC),null,null,null
+
+
+# Created at 2020-04-25T16:19:50.343
+Unexpected IOException: 9,1,com.qa.testcases.HomepageTC,Teardown(com.qa.testcases.HomepageTC),null,null,null
+
+
+# Created at 2020-04-25T16:19:50.345
+Unexpected IOException: 9,1,com.qa.testcases.CreatecontactTC,Beforet(com.qa.testcases.CreatecontactTC),null,null,null
+
+
+# Created at 2020-04-25T16:19:50.346
+Unexpected IOException: 5,1,com.qa.testcases.CreatecontactTC,Verifycontactonformation(com.qa.testcases.CreatecontactTC),com.qa.testcases.CreatecontactTC,null,null
+
+
+# Created at 2020-04-25T16:19:50.350
+Unexpected IOException: 9,1,com.qa.testcases.CreatecontactTC,Verifycontactonformation(com.qa.testcases.CreatecontactTC),null,null,null
+
+
+# Created at 2020-04-25T16:19:50.352
+Unexpected IOException: 9,1,com.qa.testcases.CreatecontactTC,Aftertest(com.qa.testcases.CreatecontactTC),null,null,null
+
+
+# Created at 2020-04-25T16:19:50.355
+Unexpected IOException: 9,1,com.qa.testcases.CreatecontactTC,Beforet(com.qa.testcases.CreatecontactTC),null,null,null
+
+
+# Created at 2020-04-25T16:19:50.356
+Unexpected IOException: 5,1,com.qa.testcases.CreatecontactTC,VerifyLoadbutton(com.qa.testcases.CreatecontactTC),com.qa.testcases.CreatecontactTC,null,null
+
+
+# Created at 2020-04-25T16:19:50.359
+Unexpected IOException: 9,1,com.qa.testcases.CreatecontactTC,VerifyLoadbutton(com.qa.testcases.CreatecontactTC),null,null,null
+
+
+# Created at 2020-04-25T16:19:50.361
+Unexpected IOException: 9,1,com.qa.testcases.CreatecontactTC,Aftertest(com.qa.testcases.CreatecontactTC),null,null,null
+
+
+# Created at 2020-04-25T16:19:50.932
+Unexpected IOException with stream: Getlastrownu===> 4
+
+
+# Created at 2020-04-25T16:19:50.932
+Unexpected IOException with stream: Getlastcolvalue =====>5
+
+
+# Created at 2020-04-25T16:19:50.937
+Unexpected IOException with stream: Dr.
+
+# Created at 2020-04-25T16:19:50.937
+Unexpected IOException with stream: 
+
+
+# Created at 2020-04-25T16:19:50.938
+Unexpected IOException with stream: Ankit
+
+# Created at 2020-04-25T16:19:50.938
+Unexpected IOException with stream: 
+
+
+# Created at 2020-04-25T16:19:50.939
+Unexpected IOException with stream: Kumar
+
+# Created at 2020-04-25T16:19:50.939
+Unexpected IOException with stream: 
+
+
+# Created at 2020-04-25T16:19:50.940
+Unexpected IOException with stream: LNU
+
+# Created at 2020-04-25T16:19:50.940
+Unexpected IOException with stream: 
+
+
+# Created at 2020-04-25T16:19:50.941
+Unexpected IOException with stream: Esq.
+
+# Created at 2020-04-25T16:19:50.941
+Unexpected IOException with stream: 
+
+
+# Created at 2020-04-25T16:19:50.942
+Unexpected IOException with stream: Miss
+
+# Created at 2020-04-25T16:19:50.942
+Unexpected IOException with stream: 
+
+
+# Created at 2020-04-25T16:19:50.943
+Unexpected IOException with stream: Nitin
+
+# Created at 2020-04-25T16:19:50.943
+Unexpected IOException with stream: 
+
+
+# Created at 2020-04-25T16:19:50.944
+Unexpected IOException with stream: kalak
+
+# Created at 2020-04-25T16:19:50.944
+Unexpected IOException with stream: 
+
+
+# Created at 2020-04-25T16:19:50.945
+Unexpected IOException with stream: NUL
+
+# Created at 2020-04-25T16:19:50.945
+Unexpected IOException with stream: 
+
+
+# Created at 2020-04-25T16:19:50.946
+Unexpected IOException with stream: II
+
+# Created at 2020-04-25T16:19:50.946
+Unexpected IOException with stream: 
+
+
+# Created at 2020-04-25T16:19:50.947
+Unexpected IOException with stream: Mr.
+
+# Created at 2020-04-25T16:19:50.947
+Unexpected IOException with stream: 
+
+
+# Created at 2020-04-25T16:19:50.948
+Unexpected IOException with stream: Mohit
+
+# Created at 2020-04-25T16:19:50.948
+Unexpected IOException with stream: 
+
+
+# Created at 2020-04-25T16:19:50.949
+Unexpected IOException with stream: sood
+
+# Created at 2020-04-25T16:19:50.949
+Unexpected IOException with stream: 
+
+
+# Created at 2020-04-25T16:19:50.950
+Unexpected IOException with stream: TIDDA
+
+# Created at 2020-04-25T16:19:50.950
+Unexpected IOException with stream: 
+
+
+# Created at 2020-04-25T16:19:50.951
+Unexpected IOException with stream: III
+
+# Created at 2020-04-25T16:19:50.951
+Unexpected IOException with stream: 
+
+
+# Created at 2020-04-25T16:19:50.952
+Unexpected IOException with stream: Mrs.
+
+# Created at 2020-04-25T16:19:50.953
+Unexpected IOException with stream: 
+
+
+# Created at 2020-04-25T16:19:50.953
+Unexpected IOException with stream: Sonu
+
+# Created at 2020-04-25T16:19:50.954
+Unexpected IOException with stream: 
+
+
+# Created at 2020-04-25T16:19:50.954
+Unexpected IOException with stream: kumar
+
+# Created at 2020-04-25T16:19:50.955
+Unexpected IOException with stream: 
+
+
+# Created at 2020-04-25T16:19:50.955
+Unexpected IOException with stream: TRUE
+
+# Created at 2020-04-25T16:19:50.956
+Unexpected IOException with stream: 
+
+
+# Created at 2020-04-25T16:19:50.956
+Unexpected IOException with stream: IV
+
+# Created at 2020-04-25T16:19:50.957
+Unexpected IOException with stream: 
+
+
+# Created at 2020-04-25T16:19:50.957
+Unexpected IOException: 9,1,com.qa.testcases.CreatecontactTC,Beforet(com.qa.testcases.CreatecontactTC),null,null,null
+
+
+# Created at 2020-04-25T16:19:50.958
+Unexpected IOException: 5,1,com.qa.testcases.CreatecontactTC,createconctactssss(com.qa.testcases.CreatecontactTC),com.qa.testcases.CreatecontactTC,null,null
+
+
+# Created at 2020-04-25T16:19:50.960
+Unexpected IOException: 9,1,com.qa.testcases.CreatecontactTC,createconctactssss(com.qa.testcases.CreatecontactTC),null,null,null
+
+
+# Created at 2020-04-25T16:19:50.963
+Unexpected IOException: 9,1,com.qa.testcases.CreatecontactTC,Aftertest(com.qa.testcases.CreatecontactTC),null,null,null
+
+
+# Created at 2020-04-25T16:19:50.963
+Unexpected IOException: 9,1,com.qa.testcases.CreatecontactTC,Beforet(com.qa.testcases.CreatecontactTC),null,null,null
+
+
+# Created at 2020-04-25T16:19:50.964
+Unexpected IOException: 5,1,com.qa.testcases.CreatecontactTC,createconctactssss(com.qa.testcases.CreatecontactTC),com.qa.testcases.CreatecontactTC,null,null
+
+
+# Created at 2020-04-25T16:19:50.966
+Unexpected IOException: 9,1,com.qa.testcases.CreatecontactTC,createconctactssss(com.qa.testcases.CreatecontactTC),null,null,null
+
+
+# Created at 2020-04-25T16:19:50.968
+Unexpected IOException: 9,1,com.qa.testcases.CreatecontactTC,Aftertest(com.qa.testcases.CreatecontactTC),null,null,null
+
+
+# Created at 2020-04-25T16:19:50.969
+Unexpected IOException: 9,1,com.qa.testcases.CreatecontactTC,Beforet(com.qa.testcases.CreatecontactTC),null,null,null
+
+
+# Created at 2020-04-25T16:19:50.970
+Unexpected IOException: 5,1,com.qa.testcases.CreatecontactTC,createconctactssss(com.qa.testcases.CreatecontactTC),com.qa.testcases.CreatecontactTC,null,null
+
+
+# Created at 2020-04-25T16:19:50.972
+Unexpected IOException: 9,1,com.qa.testcases.CreatecontactTC,createconctactssss(com.qa.testcases.CreatecontactTC),null,null,null
+
+
+# Created at 2020-04-25T16:19:50.974
+Unexpected IOException: 9,1,com.qa.testcases.CreatecontactTC,Aftertest(com.qa.testcases.CreatecontactTC),null,null,null
+
+
+# Created at 2020-04-25T16:19:50.975
+Unexpected IOException: 9,1,com.qa.testcases.CreatecontactTC,Beforet(com.qa.testcases.CreatecontactTC),null,null,null
+
+
+# Created at 2020-04-25T16:19:50.975
+Unexpected IOException: 5,1,com.qa.testcases.CreatecontactTC,createconctactssss(com.qa.testcases.CreatecontactTC),com.qa.testcases.CreatecontactTC,null,null
+
+
+# Created at 2020-04-25T16:19:50.978
+Unexpected IOException: 9,1,com.qa.testcases.CreatecontactTC,createconctactssss(com.qa.testcases.CreatecontactTC),null,null,null
+
+
+# Created at 2020-04-25T16:19:50.980
+Unexpected IOException: 9,1,com.qa.testcases.CreatecontactTC,Aftertest(com.qa.testcases.CreatecontactTC),null,null,null
+
+
+# Created at 2020-04-25T16:19:50.980
+Unexpected IOException: 9,1,com.qa.testcases.CreatecontactTC,Teardown(com.qa.testcases.CreatecontactTC),null,null,null
+
+
+# Created at 2020-04-25T16:19:51.130
+Unexpected IOException with stream: java.lang.NullPointerException
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy9.sendKeys(Unknown Source)
+	at com.qa.Pages.LoginPage.logintoapp(LoginPage.java:39)
+	at com.qa.testcases.LoginTC.logintest(LoginTC.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+
+
+
+# Created at 2020-04-25T16:19:51.149
+Unexpected IOException with stream: 04-25-2020 16:19:51 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+
+
+# Created at 2020-04-25T16:19:51.151
+Unexpected IOException with stream: 04-25-2020 16:19:51 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+
+
+# Created at 2020-04-25T16:19:51.153
+Unexpected IOException with stream: 04-25-2020 16:19:51 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+
+
+# Created at 2020-04-25T16:19:51.156
+Unexpected IOException with stream: 04-25-2020 16:19:51 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+
+
+# Created at 2020-04-25T16:19:51.156
+Unexpected IOException with stream: 04-25-2020 16:19:51 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/G516741/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+
+
+# Created at 2020-04-25T16:19:51.354
+Unexpected IOException with stream: 04-25-2020 16:19:51 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+
+
+# Created at 2020-04-25T16:19:51.357
+Unexpected IOException with stream: 04-25-2020 16:19:51 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+
+
+# Created at 2020-04-25T16:19:51.358
+Unexpected IOException with stream: 04-25-2020 16:19:51 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+
+
+# Created at 2020-04-25T16:19:51.360
+Unexpected IOException with stream: 04-25-2020 16:19:51 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+
+
+# Created at 2020-04-25T16:19:51.361
+Unexpected IOException with stream: 04-25-2020 16:19:51 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/G516741/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+
+
+# Created at 2020-04-25T16:19:51.511
+Unexpected IOException: 2,1,org.apache.maven.surefire.testng.TestNGXmlTestSuite,TestSuite,null,null,null
+
+

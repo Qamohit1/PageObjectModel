@@ -1,0 +1,1 @@
+{"uuid":"8415c6c5-ff05-4042-8276-ce8212dee904","name":"com.qa.testcases.LoginTC","children":["1f128eec-59cf-4c23-af2b-1fecf4850b49"],"befores":[],"afters":[{"name":"Teardown","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1587880142080,"stop":1587880142660}],"links":[],"start":1587880134126,"stop":1587880190328}

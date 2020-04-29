@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.qa.util.ExtentReporterNG"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.qa.testcases.CreatecontactTC">
+        <methods>
+          <include name="createconctactssss"/>
+          <include name="VerifyLoadbutton"/>
+          <include name="Verifycontactonformation"/>
+        </methods>
+      </class> <!-- com.qa.testcases.CreatecontactTC -->
+      <class name="com.qa.testcases.LoginTC">
+        <methods>
+          <include name="logintest"/>
+          <include name="Beforet"/>
+        </methods>
+      </class> <!-- com.qa.testcases.LoginTC -->
+      <class name="com.qa.testcases.HomepageTC">
+        <methods>
+          <include name="Verifuser"/>
+          <include name="Veriflogin"/>
+        </methods>
+      </class> <!-- com.qa.testcases.HomepageTC -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

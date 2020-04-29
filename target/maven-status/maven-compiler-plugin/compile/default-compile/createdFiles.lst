@@ -1,0 +1,10 @@
+com\qa\base\Testbase.class
+com\qa\util\logs.class
+com\qa\Pages\LoginPage.class
+com\qa\Pages\Signup.class
+com\qa\util\ExtentReporterNG.class
+com\qa\util\TestUtil.class
+com\qa\Pages\Homepage.class
+com\qa\util\MyScreenRecorder.class
+com\qa\Pages\CreateContactpage.class
+com\qa\util\WebEventListner.class
