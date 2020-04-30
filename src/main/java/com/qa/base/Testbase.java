@@ -4,6 +4,7 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.util.Collections;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
@@ -67,6 +68,8 @@ public static void initializebrowser() throws InterruptedException{
 		// To 𝐂𝐡𝐫𝐨𝐦𝐞 𝐢𝐬 𝐛𝐞𝐢𝐧𝐠 𝐜𝐨𝐧𝐭𝐫𝐨𝐥𝐥𝐞𝐝 𝐛𝐲 𝐚𝐮𝐭𝐨𝐦𝐚𝐭𝐞𝐝 𝐭𝐞𝐬𝐭  𝐬𝐨𝐟𝐭𝐰𝐚𝐫𝐞? 𝐃𝐢𝐬𝐚𝐛𝐥𝐞 𝐭𝐡𝐢𝐬 𝐚𝐧𝐧𝐨𝐲𝐢𝐧𝐠 𝐩𝐨𝐩𝐮𝐩.
 		ChromeOptions options = new ChromeOptions(); 
 		options.setExperimentalOption("excludeSwitches", new String[]{"enable-automation"});
+		//options.addArguments("--disable-extensions");
+		options.setExperimentalOption("excludeSwitches", Collections.singletonList("load-extension"));
 		driver =new ChromeDriver(options);
 		
 	    } 
@@ -86,10 +89,10 @@ public static void initializebrowser() throws InterruptedException{
 			driver =new FirefoxDriver();
 		}
 	
-	//EventFiringWebDriver e_driver= new EventFiringWebDriver(driver);
-	//WebEventListner Webevent = new WebEventListner();
-	//e_driver.register(Webevent);
-	//driver=e_driver;
+		EventFiringWebDriver e_driver= new EventFiringWebDriver(driver);
+		WebEventListner Webevent = new WebEventListner();
+		e_driver.register(Webevent);
+		driver=e_driver;
 	
 	  driver.manage().window().maximize();
 	  driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);

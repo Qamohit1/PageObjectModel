@@ -6,23 +6,10 @@
   </listeners>
   <test name="Test(failed)">
     <classes>
-      <class name="com.qa.testcases.HomepageTC">
-        <methods>
-          <include name="Verifuser"/>
-          <include name="Veriflogin"/>
-        </methods>
-      </class> <!-- com.qa.testcases.HomepageTC -->
-      <class name="com.qa.testcases.CreatecontactTC">
-        <methods>
-          <include name="createconctactssss"/>
-          <include name="VerifyLoadbutton"/>
-          <include name="Verifycontactonformation"/>
-        </methods>
-      </class> <!-- com.qa.testcases.CreatecontactTC -->
       <class name="com.qa.testcases.LoginTC">
         <methods>
+          <include name="setUp"/>
           <include name="logintest"/>
-          <include name="Beforet"/>
         </methods>
       </class> <!-- com.qa.testcases.LoginTC -->
     </classes>

@@ -1,56 +1,37 @@
 package com.qa.testcases;
 
-
-import java.io.IOException;
-
-import org.apache.poi.EncryptedDocumentException;
+import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import com.qa.Pages.CreateContactpage;
+
+import com.qa.base.Testbase;
 import com.qa.Pages.Homepage;
 import com.qa.Pages.LoginPage;
-import com.qa.base.Testbase;
 
 public class LoginTC extends Testbase{
-	
-	LoginPage login = new LoginPage();
-	
+	LoginPage loginPage;
+	Homepage homePage;
 	String user = prop.getProperty("Username");
 	String pass = prop.getProperty("Password");
 	
 	
-	
-	public LoginTC() {
+	public LoginTC(){
 		super();
 	}
-	   
-
+	
 	@BeforeMethod
-	public void Beforet() throws InterruptedException, EncryptedDocumentException, IOException {	
-	        initializebrowser();
-					
-		}
-		
-	
-	
- @Test
- public void logintest() throws InterruptedException {
-	 login.logintoapp(user,pass);
-	
-	 
- }
-     
- @AfterMethod
- public void Aftertest() throws InterruptedException {	
- 	
- 	//driver.close();
- 	
- }	
-
-     
+	public void setUp() throws InterruptedException{
+		initializebrowser();
+		loginPage = new LoginPage();	
+	}
 	
 
+	@Test(priority=1)
+	public void logintest() throws InterruptedException{
+		homePage = loginPage.logintoapp(user,pass);
+	}
+	
+	
 }
- 

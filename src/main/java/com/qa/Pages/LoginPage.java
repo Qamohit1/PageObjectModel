@@ -35,11 +35,11 @@ public class LoginPage extends Testbase{
 	
 	TestUtil testutil = new TestUtil();
 	
-	public void logintoapp(String username, String password ) throws InterruptedException {
+	public Homepage logintoapp(String username, String password ) throws InterruptedException {
 	Username.sendKeys(username);
-
 	Password.sendKeys(password);
 	loginbtn.click();
+	return new Homepage();
 
 	}
 	

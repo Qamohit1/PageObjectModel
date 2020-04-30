@@ -1,5 +1,4 @@
 com\qa\base\Testbase.class
-com\qa\util\logs.class
 com\qa\Pages\LoginPage.class
 com\qa\Pages\Signup.class
 com\qa\util\ExtentReporterNG.class

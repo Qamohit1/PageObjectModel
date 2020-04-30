@@ -1,28 +1,23 @@
 package com.qa.testcases;
 
-import java.io.File;
-import java.io.IOException;
-import java.util.Properties;
-
 import org.apache.logging.log4j.LogManager;
-import org.apache.poi.EncryptedDocumentException;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-import org.testng.log4testng.Logger;
 import com.qa.Pages.CreateContactpage;
 import com.qa.Pages.Homepage;
+import com.qa.Pages.LoginPage;
 import com.qa.base.Testbase;
 import com.qa.util.MyScreenRecorder;
-import com.qa.util.TestUtil;
 
 public class HomepageTC extends Testbase{
 
 	
-	LoginTC logintc;
+	LoginPage loginPage;
 	Homepage homepage;
 	CreateContactpage createContactpage;
+	String user = prop.getProperty("Username");
+	String pass = prop.getProperty("Password");
 
 
 
@@ -45,10 +40,11 @@ public class HomepageTC extends Testbase{
 public void Beforetest() throws InterruptedException {	
 	initializebrowser();
 	//log.info("Initializing Browser");
-	logintc =new LoginTC();
+	//logintc =new LoginTC();
+	loginPage = new LoginPage();
 	homepage =new Homepage();
 	createContactpage = new CreateContactpage();
-	logintc.logintest();
+	homepage = loginPage.logintoapp(user,pass);
 
 	//log.info("login too the application");
 	
@@ -63,7 +59,7 @@ public void Verifuser() throws Exception {
      logger.fatal("This is fatal message");
      logger.error("This is error message");
      System.out.println("Logic executed successfully....");
-	MyScreenRecorder.startRecording("Testcase Recording");
+	//MyScreenRecorder.startRecording("Testcase Recording");
 	homepage.verifyusername(" Mohit k");	
 	//log.info("Uesrname success verified");
 	//System.out.println("Uesrname success verified");
@@ -73,16 +69,16 @@ public void Verifuser() throws Exception {
 @Test(priority=2)
 public void Veriflogin() throws Exception {	
 	homepage.verifylogin("  Logout  ");
-	//log.info("Login success verified");
-	MyScreenRecorder.stopRecording();
+	logger.info("Login success verified");
+	//MyScreenRecorder.stopRecording();
 }	
+  
 
 
-/*
- * @Test(priority=3) public void Verifcontactlink() throws InterruptedException
- * { createContactpage=homepage.clickonContactppage("New Contact");
- * System.out.println("Contact link verified"); }
- */
+  @Test(priority=3) public void Verifcontactlink() throws InterruptedException
+  { createContactpage=homepage.clickonContactppage("New Contact");
+   System.out.println("Contact link verified"); }
+ 
 
 @AfterMethod
 public void Aftertest() throws InterruptedException {	

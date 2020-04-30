@@ -17,7 +17,7 @@ import com.qa.util.TestUtil;
 
 public class CreatecontactTC extends Testbase{
 	
-	LoginTC logintc;
+	LoginPage loginpage ;
 	Homepage homepage;
 	CreateContactpage createContactpage;
 	
@@ -31,10 +31,10 @@ public class CreatecontactTC extends Testbase{
 @BeforeMethod
 public void Beforet() throws InterruptedException, EncryptedDocumentException, IOException {	
         initializebrowser();
-    	logintc = new LoginTC();
+        loginpage = new LoginPage();
     	homepage =new Homepage();
     	createContactpage =new CreateContactpage();
-		logintc.logintest();
+    	homepage = loginpage.logintoapp(prop.getProperty("Username"), prop.getProperty("Password"));
 		homepage.clickonContactppage("New Contact");
 		
 				
