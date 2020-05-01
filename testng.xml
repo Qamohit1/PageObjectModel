@@ -7,8 +7,8 @@
   <test name="Test">
     <classes>
     <class name="com.qa.testcases.LoginTC"/>
-<!--        <class name="com.qa.testcases.HomepageTC"/>              
-      <class name="com.qa.testcases.CreatecontactTC"/>  -->
+       <class name="com.qa.testcases.HomepageTC"/>              
+      <class name="com.qa.testcases.CreatecontactTC"/> 
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
