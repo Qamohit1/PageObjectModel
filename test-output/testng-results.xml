@@ -1,53 +1,88 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="3" passed="3">
+<testng-results skipped="1" failed="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="86942" started-at="2020-04-30T19:29:05Z" finished-at="2020-04-30T19:30:32Z">
+  <suite name="Suite" duration-ms="18916" started-at="2020-05-01T18:37:18Z" finished-at="2020-05-01T18:37:37Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="86942" started-at="2020-04-30T19:29:05Z" finished-at="2020-04-30T19:30:32Z">
-      <class name="com.qa.testcases.HomepageTC">
-        <test-method status="PASS" signature="Beforetest()[pri:0, instance:com.qa.testcases.HomepageTC@4efac082]" name="Beforetest" is-config="true" duration-ms="23055" started-at="2020-05-01T00:59:05Z" finished-at="2020-05-01T00:59:28Z">
+    <test name="Test" duration-ms="18916" started-at="2020-05-01T18:37:18Z" finished-at="2020-05-01T18:37:37Z">
+      <class name="com.qa.testcases.LoginTC">
+        <test-method status="FAIL" signature="setUp()[pri:0, instance:com.qa.testcases.LoginTC@239963d8]" name="setUp" is-config="true" duration-ms="0" started-at="2020-05-02T00:07:18Z" finished-at="2020-05-02T00:07:18Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[chrome not reachable
+  (Session info: chrome=81.0.4044.129)
+Build info: version: '3.7.0', revision: '2321c73', time: '2017-11-02T22:22:35.584Z'
+System info: host: 'INNO2-5095', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.129, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\G516741\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:49367}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6fae1f44dd60e4d927fd92a79a6f23aa]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=81.0.4044.129)
+Build info: version: '3.7.0', revision: '2321c73', time: '2017-11-02T22:22:35.584Z'
+System info: host: 'INNO2-5095', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.129, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\G516741\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:49367}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6fae1f44dd60e4d927fd92a79a6f23aa
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:657)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions.deleteAllCookies(RemoteWebDriver.java:742)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringOptions.deleteAllCookies(EventFiringWebDriver.java:570)
+	at com.qa.base.Testbase.initializebrowser(Testbase.java:100)
+	at com.qa.testcases.LoginTC.setUp(LoginTC.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:216)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:590)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1129)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:746)
+	at org.testng.TestRunner.run(TestRunner.java:600)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1264)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1189)
+	at org.testng.TestNG.runSuites(TestNG.java:1104)
+	at org.testng.TestNG.run(TestNG.java:1076)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Beforetest -->
-        <test-method status="PASS" signature="Verifuser()[pri:1, instance:com.qa.testcases.HomepageTC@4efac082]" name="Verifuser" duration-ms="91" started-at="2020-05-01T00:59:28Z" finished-at="2020-05-01T00:59:28Z">
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="logintest()[pri:1, instance:com.qa.testcases.LoginTC@239963d8]" name="logintest" duration-ms="1" started-at="2020-05-02T00:07:37Z" finished-at="2020-05-02T00:07:37Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Verifuser -->
-        <test-method status="PASS" signature="Aftertest()[pri:0, instance:com.qa.testcases.HomepageTC@4efac082]" name="Aftertest" is-config="true" duration-ms="74" started-at="2020-05-01T00:59:28Z" finished-at="2020-05-01T00:59:28Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Aftertest -->
-        <test-method status="PASS" signature="Beforetest()[pri:0, instance:com.qa.testcases.HomepageTC@4efac082]" name="Beforetest" is-config="true" duration-ms="27171" started-at="2020-05-01T00:59:28Z" finished-at="2020-05-01T00:59:55Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Beforetest -->
-        <test-method status="PASS" signature="Veriflogin()[pri:2, instance:com.qa.testcases.HomepageTC@4efac082]" name="Veriflogin" duration-ms="54" started-at="2020-05-01T00:59:55Z" finished-at="2020-05-01T00:59:55Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Veriflogin -->
-        <test-method status="PASS" signature="Aftertest()[pri:0, instance:com.qa.testcases.HomepageTC@4efac082]" name="Aftertest" is-config="true" duration-ms="91" started-at="2020-05-01T00:59:55Z" finished-at="2020-05-01T00:59:55Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Aftertest -->
-        <test-method status="PASS" signature="Beforetest()[pri:0, instance:com.qa.testcases.HomepageTC@4efac082]" name="Beforetest" is-config="true" duration-ms="23742" started-at="2020-05-01T00:59:55Z" finished-at="2020-05-01T01:00:19Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Beforetest -->
-        <test-method status="PASS" signature="Verifcontactlink()[pri:3, instance:com.qa.testcases.HomepageTC@4efac082]" name="Verifcontactlink" duration-ms="11919" started-at="2020-05-01T01:00:19Z" finished-at="2020-05-01T01:00:31Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verifcontactlink -->
-        <test-method status="PASS" signature="Aftertest()[pri:0, instance:com.qa.testcases.HomepageTC@4efac082]" name="Aftertest" is-config="true" duration-ms="49" started-at="2020-05-01T01:00:31Z" finished-at="2020-05-01T01:00:31Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Aftertest -->
-        <test-method status="PASS" signature="Teardown()[pri:0, instance:com.qa.testcases.HomepageTC@4efac082]" name="Teardown" is-config="true" duration-ms="669" started-at="2020-05-01T01:00:31Z" finished-at="2020-05-01T01:00:32Z">
+        </test-method> <!-- logintest -->
+        <test-method status="SKIP" signature="Teardown()[pri:0, instance:com.qa.testcases.LoginTC@239963d8]" name="Teardown" is-config="true" duration-ms="0" started-at="2020-05-02T00:07:37Z" finished-at="2020-05-02T00:07:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Teardown -->
-      </class> <!-- com.qa.testcases.HomepageTC -->
+      </class> <!-- com.qa.testcases.LoginTC -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

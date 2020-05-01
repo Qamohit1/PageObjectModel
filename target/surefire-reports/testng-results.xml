@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="25867" started-at="2020-05-01T10:05:38Z" finished-at="2020-05-01T10:06:04Z">
+  <suite name="Suite" duration-ms="26511" started-at="2020-05-01T20:11:27Z" finished-at="2020-05-01T20:11:53Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="25867" started-at="2020-05-01T10:05:38Z" finished-at="2020-05-01T10:06:04Z">
+    <test name="Test" duration-ms="26511" started-at="2020-05-01T20:11:27Z" finished-at="2020-05-01T20:11:53Z">
       <class name="com.qa.testcases.LoginTC">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.testcases.LoginTC@6276ae34]" name="setUp" is-config="true" duration-ms="11859" started-at="2020-05-01T15:35:38Z" finished-at="2020-05-01T15:35:50Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.testcases.LoginTC@6276ae34]" name="setUp" is-config="true" duration-ms="12630" started-at="2020-05-02T01:41:27Z" finished-at="2020-05-02T01:41:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="logintest()[pri:0, instance:com.qa.testcases.LoginTC@6276ae34]" name="logintest" duration-ms="13226" started-at="2020-05-01T15:35:50Z" finished-at="2020-05-01T15:36:03Z">
+        <test-method status="PASS" signature="logintest()[pri:0, instance:com.qa.testcases.LoginTC@6276ae34]" name="logintest" duration-ms="13107" started-at="2020-05-02T01:41:40Z" finished-at="2020-05-02T01:41:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logintest -->
-        <test-method status="PASS" signature="Teardown()[pri:0, instance:com.qa.testcases.LoginTC@6276ae34]" name="Teardown" is-config="true" duration-ms="776" started-at="2020-05-01T15:36:03Z" finished-at="2020-05-01T15:36:04Z">
+        <test-method status="PASS" signature="Teardown()[pri:0, instance:com.qa.testcases.LoginTC@6276ae34]" name="Teardown" is-config="true" duration-ms="766" started-at="2020-05-02T01:41:53Z" finished-at="2020-05-02T01:41:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Teardown -->

@@ -6,25 +6,10 @@
   </listeners>
   <test name="Test(failed)">
     <classes>
-      <class name="com.qa.testcases.HomepageTC">
-        <methods>
-          <include name="Teardown"/>
-          <include name="Aftertest"/>
-          <include name="Beforetest"/>
-        </methods>
-      </class> <!-- com.qa.testcases.HomepageTC -->
-      <class name="com.qa.testcases.CreatecontactTC">
-        <methods>
-          <include name="createconctactssss" invocation-numbers="3"/>
-          <include name="Beforet"/>
-          <include name="Teardown"/>
-          <include name="Aftertest"/>
-        </methods>
-      </class> <!-- com.qa.testcases.CreatecontactTC -->
       <class name="com.qa.testcases.LoginTC">
         <methods>
           <include name="setUp"/>
-          <include name="Teardown"/>
+          <include name="logintest"/>
         </methods>
       </class> <!-- com.qa.testcases.LoginTC -->
     </classes>
